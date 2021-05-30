@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.3"
+  },
+  "name": "votemaster",
+  "description": "Discord bot for polling, voting, etc.",
+  "version": "0.0.1",
+  "main": "./build/index.js",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.25.0",
+    "@typescript-eslint/parser": "^4.25.0",
+    "eslint": "^7.27.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KingMarine-GH/votemaster.git"
+  },
+  "author": "KingMarine#5676 // KingMarine-GH",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/KingMarine-GH/votemaster/issues"
+  },
+  "homepage": "https://github.com/KingMarine-GH/votemaster#readme"
+}
