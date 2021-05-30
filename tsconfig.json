@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "sourceMap": true,
+        "mapRoot": "./build",
+        "rootDir": "./src",
+        "watch": true,
+        "outDir": "./build"
+    },
+    "exclude": ["./res", "./build"],
+    "include": ["./src"]
+}
