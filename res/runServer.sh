@@ -6,6 +6,4 @@ mv res/tsconfig-start.json tsconfig.json
 tsc
 
 mv tsconfig.json res/tsconfig-start.json
-mv res/tsconfig.json . 
-
-node .
+mv res/tsconfig.json .
