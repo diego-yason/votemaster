@@ -14,7 +14,7 @@ SQL_USER="SQLUsername"
 SQL_PASS="SQLP4ssw0rd"
 ```
 
-If you wish, you can also add in a `MONITOR` value with the link to make a POST request to track its uptime.
+If you wish, you can also add in a `MONITOR` value with the link to make a POST request to track its uptime. *Please do add in a `TIME` value if you intend to use this feature, the default will be 300s.*
 
 ## Running the bot
 
