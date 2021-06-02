@@ -1,20 +1,20 @@
 CREATE TABLE `servers` (
   `id` int64 PRIMARY KEY,
   `name` text NOT NULL,
-  `start_polls` bool DEFAULT true,
-  `end_polls` bool DEFAULT false,
-  `election` bool DEFAULT false,
-  `delete_polls` bool DEFAULT false
+  `start_polls` boolean DEFAULT true,
+  `end_polls` boolean DEFAULT false,
+  `election` boolean DEFAULT false,
+  `delete_polls` boolean DEFAULT false
 );
 
 CREATE TABLE `authorized` (
   `id` int PRIMARY KEY AUTO_INCREMENT,
   `userId` int64 NOT NULL,
   `serverId` int64 NOT NULL,
-  `start_polls` bool DEFAULT false,
-  `end_polls` bool DEFAULT false,
-  `election` bool DEFAULT false,
-  `delete_polls` bool DEFAULT false
+  `start_polls` boolean DEFAULT false,
+  `end_polls` boolean DEFAULT false,
+  `election` boolean DEFAULT false,
+  `delete_polls` boolean DEFAULT false
 );
 
 CREATE TABLE `votes` (
@@ -31,7 +31,7 @@ CREATE TABLE `polls` (
   `timeLimit` datetime NOT NULL,
   `type` int NOT NULL,
   `voteLimit` int DEFAULT 1,
-  `active` bool DEFAULT true
+  `active` boolean DEFAULT true
 );
 
 CREATE TABLE `options` (
@@ -50,7 +50,7 @@ CREATE TABLE `permissions` (
   `id` int PRIMARY KEY AUTO_INCREMENT,
   `snowflake` int64 NOT NULL,
   `poll` int NOT NULL,
-  `user` bool DEFAULT false COMMENT 'true means user, false means role'
+  `user` boolean DEFAULT false COMMENT 'true means user, false means role'
 );
 
 CREATE TABLE `multioptions` (
