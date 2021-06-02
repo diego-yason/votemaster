@@ -1,8 +1,10 @@
 {
     "dependencies": {
+        "@types/mysql": "^2.15.18",
         "axios": "^0.21.1",
         "discord.js": "^12.5.3",
-        "dotenv": "^10.0.0"
+        "dotenv": "^10.0.0",
+        "mysql": "^2.18.1"
     },
     "name": "votemaster",
     "description": "Discord bot for polling, voting, etc.",
