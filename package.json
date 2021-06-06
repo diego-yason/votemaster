@@ -3,7 +3,7 @@
         "axios": "^0.21.1",
         "discord.js": "^12.5.3",
         "dotenv": "^10.0.0",
-        "mysql": "^2.18.1"
+        "mysql2": "^2.2.5"
     },
     "name": "votemaster",
     "description": "Discord bot for polling, voting, etc.",
