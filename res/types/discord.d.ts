@@ -11,6 +11,27 @@ export interface ButtonInteraction {
     application_id: string;
 }
 
+export interface Interaction {
+    type:       number;
+    token:      string;
+    member:     Member;
+    id:         string;
+    guild_id:   string;
+    data:       InteractionData;
+    channel_id: string;
+}
+
+interface InteractionData {
+    options: InteractionOptions[];
+    name:    string;
+    id:      string;
+}
+
+interface InteractionOptions {
+    name:  string;
+    value: string;
+}
+
 interface Message {
     type:             number;
     tts:              boolean;
